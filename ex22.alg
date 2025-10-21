@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que receba o pre√ßo de custo e o pre√ßo de venda de 40 produtos. Mostre como resultado se 
+houve lucro, preju√≠zo ou empate para cada produto. Informe media de pre√ßo de custo e do pre√ßo de venda.
 // Autor :
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 preco_custo, preco_venda: real
     soma_custo, soma_venda: real
@@ -14,10 +15,10 @@ Inicio
     Para i de 1 ate 40 faca
         EscrevaL("\n--- Produto ", i, " ---")
 
-        Escreva("PreÁo de custo: R$ ")
+        Escreva("Pre√ßo de custo: R$ ")
         Leia(preco_custo)
 
-        Escreva("PreÁo de venda: R$ ")
+        Escreva("Pre√ßo de venda: R$ ")
         Leia(preco_venda)
 
 
@@ -29,15 +30,16 @@ Inicio
             EscrevaL("Resultado: Lucro")
         Senao
             Se preco_venda < preco_custo Entao
-                EscrevaL("Resultado: PrejuÌzo")
+                EscrevaL("Resultado: Preju√≠zo")
             Senao
-                EscrevaL("Resultado: Empate (sem lucro ou prejuÌzo)")
+                EscrevaL("Resultado: Empate (sem lucro ou preju√≠zo)")
             FimSe
         FimSe
     FimPara
 
 
     EscrevaL("\n--- RESULTADOS FINAIS ---")
-    EscrevaL("MÈdia do preÁo de custo: R$ ", soma_custo / 40)
-    EscrevaL("MÈdia do preÁo de venda: R$ ", soma_venda / 40)
+    EscrevaL("M√©dia do pre√ßo de custo: R$ ", soma_custo / 40)
+    EscrevaL("M√©dia do pre√ßo de venda: R$ ", soma_venda / 40)
 fimalgoritmo
+//Esse algoritmo l√™ custo e venda de 40 produtos e informa se houve lucro, preju√≠zo ou empate, e calcula m√©dias dos pre√ßos.
