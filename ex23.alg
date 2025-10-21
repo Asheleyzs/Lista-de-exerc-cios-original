@@ -1,22 +1,24 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :FaÃ§a um algoritmo que receba um nÃºmero e mostre uma mensagem caso este nÃºmero sege maior que 80, menor 
+que 25 ou igual a 40
 // Autor :
 // Data : 13/10/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
 n: inteiro
 inicio
-escreval("Digite o número: ")
+escreval("Digite o nÃºmero: ")
 leia(n)
 se (n > 80) entao
-   escreval("Este número é maior que 80")
+   escreval("Este nÃºmero Ã© maior que 80")
 senao
    se (n < 25) entao
-      escreval("Este número é menor que 25")
+      escreval("Este nÃºmero Ã© menor que 25")
    senao
       se (n = 40) entao
-         escreval("Este número é igual a 40")
+         escreval("Este nÃºmero Ã© igual a 40")
       fimse
    fimse
 fimse
 fimalgoritmo
+//Esse algoritmo verifica se um nÃºmero Ã© maior que 80, menor que 25 ou igual a 40, e exibe mensagens conforme o caso.
