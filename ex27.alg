@@ -1,8 +1,11 @@
 algoritmo "semnome"
-// Fun��o :
+// Função :A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. Faça um algoritmo que 
+calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O desconto deverá ser calculado sobre o valor 
+do veículo de acordo com o combustível (álcool – 25%, gasolina – 21% ou diesel –14%). Com valor do veículo zero 
+encerra entrada de dados. Informe total de desconto e total pago pelos clientes
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 valor, desconto, valorFinal, totalDesconto, totalPago: real
     combustivel: caractere
@@ -11,13 +14,13 @@ Inicio
     totalPago <- 0
 
     Enquanto verdadeiro faca
-        Escreva("Digite o valor do ve�culo (0 para sair): R$ ")
+        Escreva("Digite o valor do veículo (0 para sair): R$ ")
         Leia(valor)
         Se valor = 0 Entao
             Pare
         FimSe
 
-        Escreva("Digite o tipo de combust�vel (A - �lcool, G - gasolina, D - diesel): ")
+        Escreva("Digite o tipo de combustível (A - álcool, G - gasolina, D - diesel): ")
         Leia(combustivel)
         combustivel <- Maiusculo(combustivel)
 
@@ -30,7 +33,7 @@ Inicio
                 Se combustivel = "D" Entao
                     desconto <- valor * 0.14
                 Senao
-                    EscrevaL("Combust�vel inv�lido! Tente novamente.")
+                    EscrevaL("Combustível inválido! Tente novamente.")
                     desconto <- 0
                 FimSe
             FimSe
@@ -49,3 +52,4 @@ Inicio
     EscrevaL("\nTotal de descontos concedidos: R$ ", totalDesconto)
     EscrevaL("Total pago pelos clientes: R$ ", totalPago)
 fimalgoritmo
+//Esse algoritmo calcula o desconto e valor a pagar na compra de carros baseado no tipo de combustível e encerra com valor zero.
