@@ -1,16 +1,18 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que receba o pre√ßo de custo de um produto e mostre o valor de venda. Sabe-se que o pre√ßo de 
+custo receber√° um acr√©scimo de acordo com um percentual informado pelo usu√°rio.
 // Autor :
 // Data : 30/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 pc, vv, ac: real
 inicio
-escreval("PreÁo de custo: ")
+escreval("Pre√ßo de custo: ")
 leia(pc)
-escreval("AcrÈscimo (%) : ")
+escreval("Acr√©scimo (%) : ")
 leia(ac)
 vv <- pc + (pc * ac/100)
 escreval("Valor da venda: ", vv)
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+//Esse algoritmo calcula o valor de venda de um produto com base no custo e percentual de acr√©scimo informado pelo usu√°rio.
