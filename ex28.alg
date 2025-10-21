@@ -1,8 +1,13 @@
 algoritmo "semnome"
-// Fun��o :
+// Função :Escrever um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo com os 
+seguintes critérios:
+a) 50% para aqueles que ganham menos do que três salários mínimos;
+b) 20% para aqueles que ganham entre três até dez salários mínimos;
+c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
+d) 10% para os demais funcionários.
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome: caractere
     salario, salarioMinimo: real
@@ -12,15 +17,15 @@ nome: caractere
 Inicio
     aumentoTotal <- 0
 
-    Escreva("Digite o valor do sal�rio m�nimo atual: R$ ")
+    Escreva("Digite o valor do salário mínimo atual: R$ ")
     Leia(salarioMinimo)
 
     Para i de 1 ate 584 faca
-        EscrevaL("\nFuncion�rio ", i)
+        EscrevaL("\nFuncionário ", i)
         Escreva("Nome: ")
         Leia(nome)
 
-        Escreva("Sal�rio atual de ", nome, ": R$ ")
+        Escreva("Salário atual de ", nome, ": R$ ")
         Leia(salario)
 
         Se salario < (3 * salarioMinimo) Entao
@@ -42,8 +47,9 @@ Inicio
 
         EscrevaL("Nome: ", nome)
         EscrevaL("Reajuste: R$ ", reajuste:0:2)
-        EscrevaL("Novo sal�rio: R$ ", novoSalario:0:2)
+        EscrevaL("Novo salário: R$ ", novoSalario:0:2)
     FimPara
 
     EscrevaL("\nTotal de aumento na folha de pagamento: R$ ", aumentoTotal:0:2)
 fimalgoritmo
+//Esse algoritmo calcula o novo salário de 584 funcionários com base em faixas salariais e o reajuste correspondente.
