@@ -1,18 +1,20 @@
 algoritmo "ex2"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que receba dois n√∫meros e ao final mostre a soma, subtra√ß√£o, multiplica√ß√£o e a divis√£o dos 
+n√∫meros lidos.
 // Autor : ashe
 // Data : 23/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 n1, n2: inteiro
 inicio
-escreval("Digite o primeiro n˙mero:")
+escreval("Digite o primeiro n√∫mero:")
 leia(n1)
-escreval("Digite o segundo n˙mero:")
+escreval("Digite o segundo n√∫mero:")
 leia(n2)
-escreval("A soma È:", n1 + n2)
-escreval("A subtraÁ„o È:" , n1 - n2)
-escreval("A multiplicaÁ„o È:", n1 * n2)
-escreval("A divis„o È:", n1 / n2)
-escreval("O resto È:", n1 MOD n2)
+escreval("A soma √©:", n1 + n2)
+escreval("A subtra√ß√£o √©:" , n1 - n2)
+escreval("A multiplica√ß√£o √©:", n1 * n2)
+escreval("A divis√£o √©:", n1 / n2)
+escreval("O resto √©:", n1 MOD n2)
 fimalgoritmo
+//Esse algoritmo realiza as quatro opera√ß√µes b√°sicas (+, -, /, *) entre dois n√∫meros fornecidos.
