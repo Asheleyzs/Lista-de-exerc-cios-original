@@ -1,15 +1,15 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Ler 80 n√∫meros e ao final informar quantos n√∫mero(s) est(√°)√£o no intervalo entre 10 (inclusive) e 150 (inclusive).
 // Autor :
 // Data : 08/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 i, numero, contador: inteiro
 inicio
 contador <- 0
 
    Para i de 1 ate 80 faca
-      Escreva("Digite o ", i, "∫ n˙mero: ")
+      Escreva("Digite o ", i, "¬∫ n√∫mero: ")
       Leia(numero)
 
       Se (numero >= 10) e (numero <= 150) entao
@@ -18,5 +18,6 @@ contador <- 0
    FimPara
 
    Escreval("")
-   Escreval("Quantidade de n˙meros no intervalo [10, 150]: ", contador)
+   Escreval("Quantidade de n√∫meros no intervalo [10, 150]: ", contador)
 fimalgoritmo
+//Esse algoritmo l√™ 80 n√∫meros e conta quantos est√£o no intervalo entre 10 e 150.
