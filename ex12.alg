@@ -1,13 +1,16 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :O custo ao consumidor de um carro novo √© a soma do custo de f√°brica com a percentagem do distribuidor e dos 
+impostos (aplicados, primeiro os impostos sobre o custo de f√°brica, e depois a percentagem do distribuidor sobre o 
+resultado). Supondo que a percentagem do distribuidor seja de 28% e os impostos 45%. Escrever um algoritmo que 
+leia o custo de f√°brica de um carro e informe o custo ao consumidor do mesmo.
 // Autor :
 // Data : 21/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 cf, impostos, vi, distribuidor, cc: Real
 
 Inicio
-Escreva("Digite o custo de f·brica do carro: R$ ")
+Escreva("Digite o custo de f√°brica do carro: R$ ")
 Leia(cf)
 impostos <- cf * 0.45
 vi <- cf + impostos
@@ -17,3 +20,4 @@ cc <- vi + distribuidor
 Escreva("custo do consumidor: R$ ", cc)
 
 fimalgoritmo
+//Esse algoritmo calcula o custo final de um carro para o consumidor com base nos impostos e percentual do distribuidor.
