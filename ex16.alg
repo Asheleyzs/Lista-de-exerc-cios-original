@@ -1,8 +1,10 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :Escrever um algoritmo que leia o nome e as trÃªs notas obtidas por um aluno durante o semestre. Calcular a sua 
+mÃ©dia (aritmÃ©tica), informar o nome e sua menÃ§Ã£o aprovado (media >= 7), Reprovado (media <= 5) e RecuperaÃ§Ã£o 
+(media entre 5.1 a 6.9).
 // Autor :
 // Data : 16/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 media: real
 nota1, nota2 , nota3: real
@@ -23,15 +25,16 @@ Leia(nota3)
 media <- (nota1 + nota2 + nota3) / 3
 
 Escreva("Aluno:", nome)
-Escreva("Média:", media)
+Escreva("MÃ©dia:", media)
 
 Se media >= 7 entao
-   Escreva("Situação: Aprovado")
+   Escreva("SituaÃ§Ã£o: Aprovado")
 Senao
  se media <= 5 entao
-   Escreva("Situação: Reprovado")
+   Escreva("SituaÃ§Ã£o: Reprovado")
 Senao
-   Escreva("Situação: Recuperação")
+   Escreva("SituaÃ§Ã£o: RecuperaÃ§Ã£o")
 FIMSE
 FIMSE
 fimalgoritmo
+//Esse algoritmo calcula a mÃ©dia de trÃªs notas de um aluno e informa sua menÃ§Ã£o: Aprovado, Reprovado ou RecuperaÃ§Ã£o.
