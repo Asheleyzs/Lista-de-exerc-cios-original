@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Fun��o :
+// Função :Escrever um algoritmo que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta ou não 
+para cumprir o serviço militar obrigatório. Informe os totais.
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome: caractere
    sexo, saude: caractere
@@ -25,14 +26,14 @@ inicio
       leia(sexo)
       escreva("Idade: ")
       leia(idade)
-      escreva("Sa�de (B = boa / R = ruim): ")
+      escreva("Saúde (B = boa / R = ruim): ")
       leia(saude)
 
       se (sexo = "M") e (idade >= 18) e (saude = "B") entao
-         escreval(nome, " est� APTO para o servi�o militar.")
+         escreval(nome, " está APTO para o serviço militar.")
          total_aptos <- total_aptos + 1
       senao
-         escreval(nome, " N�O est� apto para o servi�o militar.")
+         escreval(nome, " NÃO está apto para o serviço militar.")
          total_inaptos <- total_inaptos + 1
       fimse
    fimpara
@@ -41,3 +42,4 @@ inicio
    escreval("Total de aptos: ", total_aptos)
    escreval("Total de inaptos: ", total_inaptos)
 fimalgoritmo
+//Esse algoritmo lê dados de várias pessoas e informa se estão aptas ao serviço militar com base em sexo, idade e saúde.
