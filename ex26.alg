@@ -1,12 +1,13 @@
 algoritmo "semnome"
-// Fun��o :
+// Função :Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número que não 
+esteja neste intervalo, exibir mensagem: número inválido.
 // Autor :
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 numero: inteiro
 Inicio
-    Escreva("Digite um n�mero de 1 a 5: ")
+    Escreva("Digite um número de 1 a 5: ")
     Leia(numero)
 
     Escolha numero
@@ -15,12 +16,13 @@ Inicio
         Caso 2
             EscrevaL("Dois")
         Caso 3
-            EscrevaL("Tr�s")
+            EscrevaL("Três")
         Caso 4
             EscrevaL("Quatro")
         Caso 5
             EscrevaL("Cinco")
         OutroCaso
-            EscrevaL("N�mero n�o Listado")
+            EscrevaL("Número não Listado")
     FimEscolha
 fimalgoritmo
+//Esse algoritmo lê um número de 1 a 5 e exibe o nome do número por extenso ou informa que é inválido.
