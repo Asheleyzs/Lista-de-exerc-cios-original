@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que leia o nome, o sexo, a altura e a idade de uma pessoa. Calcule e mostre nome e o seu peso 
+ideal de acordo com as seguintes caracter√≠sticas da pessoa.
 // Autor :
 // Data : 15/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 nome,sexo: caractere
 altura, pesoIdeal: real
@@ -23,3 +24,4 @@ FimSe
 Escreval("Nome: ", nome)
 Escreval("Peso ideal: ", pesoIdeal:0:2, " kg")
 fimalgoritmo
+//Esse algoritmo calcula o peso ideal de uma pessoa com base no nome, sexo, altura e idade.
