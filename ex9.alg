@@ -1,9 +1,10 @@
-algoritmo "Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um mês.
-? Considere fixo o juro da poupança em 0,70% a. m"
-// Função :
+algoritmo "FaÃ§a um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento apÃ³s um mÃªs.
+? Considere fixo o juro da poupanÃ§a em 0,70% a. m"
+// FunÃ§Ã£o :FaÃ§a um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento apÃ³s um mÃªs.
+ï€­ Considere fixo o juro da poupanÃ§a em 0,70% a. m
 // Autor :
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 vd, rm, vf: real
 inicio
@@ -11,5 +12,6 @@ escreval("Valor depositado: ")
 leia(vd)
 rm <- vd * 0.007
 vf <- vd + rm
-escreval("Valor com rendimento após um mês: R$", vf)
+escreval("Valor com rendimento apÃ³s um mÃªs: R$", vf)
 fimalgoritmo
+//Esse algoritmo calcula o rendimento de um valor depositado com juros fixos de 0,70% ao mÃªs.
