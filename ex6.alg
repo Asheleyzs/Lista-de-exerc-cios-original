@@ -1,8 +1,9 @@
 algoritmo "ex6"
-// FunÁ„o :
+// Fun√ß√£o :Ler dois valores para as vari√°veis A e B, e efetuar as trocas dos valores de forma que a vari√°vel A passe a possuir o 
+valor da vari√°vel B e a vari√°vel B passe a possuir o valor da vari√°vel A. Apresentar os valores trocados.
 // Autor : ashe
 // Data : 25/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 A, B, TEMP: inteiro
 inicio
@@ -10,12 +11,13 @@ escreval("Digite o valor de A:")
 leia(A)
 escreval("Digite o valor de B:")
 leia(B)
-escreval("O valor de A È:", A)
-escreval("O valor de B È:", B)
+escreval("O valor de A √©:", A)
+escreval("O valor de B √©:", B)
 escreval("Efetuando a troca")
 TEMP <- A
 A <- B
 B <- TEMP
-escreval("O valor de A È:", A)
-escreval("O valor de B È:", B)
+escreval("O valor de A √©:", A)
+escreval("O valor de B √©:", B)
 fimalgoritmo
+//Esse algoritmo realiza a troca dos valores entre duas vari√°veis A e B.
