@@ -1,23 +1,26 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que leia dois n√∫meros e identifique se s√£o iguais ou diferentes. Caso eles sejam iguais imprima 
+uma mensagem dizendo que eles s√£o iguais. Caso sejam diferentes, informe qual n√∫mero √© o maior, e uma 
+mensagem que s√£o diferentes.
 // Autor :
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes
+// Se√ß√£o de Declara√ß√µes
 var
 n1, n2: inteiro
 inicio
-escreval("Digite o n˙mero: ")
+escreval("Digite o n√∫mero: ")
 leia(n1)
-escreval("Digite o n˙mero: ")
+escreval("Digite o n√∫mero: ")
 leia(n2)
 se n1 = n2 entao
-   escreval("Os n˙mero s„o iguais")
+   escreval("Os n√∫mero s√£o iguais")
 senao
-   escreval("Os n˙meros s„o diferentes")
+   escreval("Os n√∫meros s√£o diferentes")
    se n1 > n2 entao
-      escreval("O n˙mero maior È: ", n1)
+      escreval("O n√∫mero maior √©: ", n1)
    senao
-      escreval("O n˙mero maior È: ", n2)
+      escreval("O n√∫mero maior √©: ", n2)
    fimse
 fimse
 fimalgoritmo
+//Esse algoritmo compara dois n√∫meros e informa se s√£o iguais ou qual √© o maior e que s√£o diferentes.
