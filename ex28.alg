@@ -5,6 +5,8 @@ a) 50% para aqueles que ganham menos do que três salários mínimos;
 b) 20% para aqueles que ganham entre três até dez salários mínimos;
 c) 15% para aqueles que ganham acima de dez até vinte salários mínimos;
 d) 10% para os demais funcionários.
+Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário reajustado. Escrever o 
+nome do funcionário, o reajuste e seu novo salário. Calcule quanto à empresa vai aumentar sua folha de pagamento.
 // Autor :
 // Data : 13/10/2025
 // Seção de Declarações 
@@ -53,3 +55,4 @@ Inicio
     EscrevaL("\nTotal de aumento na folha de pagamento: R$ ", aumentoTotal:0:2)
 fimalgoritmo
 //Esse algoritmo calcula o novo salário de 584 funcionários com base em faixas salariais e o reajuste correspondente.
+
