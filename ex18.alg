@@ -1,8 +1,9 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :FaÃ§a um algoritmo que receba a idade de 75 pessoas e mostre mensagem informando â€œmaior de idadeâ€ e â€œmenor de 
+idadeâ€ para cada pessoa. Considere a idade a partir de 18 anos como maior de idade.
 // Autor :
 // Data : 08/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i, idade: inteiro
 inicio
@@ -11,11 +12,12 @@ para i de 1 ate 7 faca
   leia (idade)
 
    se idade>= 18 entao
-   escreval("Pessoa", i," é MAIOR de idade.")
+   escreval("Pessoa", i," Ã© MAIOR de idade.")
    senao
-   escreval ("Pessoa", i,"é MENOR de idade.")
+   escreval ("Pessoa", i,"Ã© MENOR de idade.")
    fimse
 
    escreval("")
    fimpara
 fimalgoritmo
+//Esse algoritmo lÃª a idade de 75 pessoas e informa se cada uma Ã© maior ou menor de idade.
