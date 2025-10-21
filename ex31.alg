@@ -1,19 +1,19 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :Escrever um algoritmo que leia trÃªs valores inteiros distintos e os escreva em ordem crescente.
 // Autor :
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1, n2, n3: inteiro
 ordena: vetor[1..3] de inteiro
 
 inicio
 
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
 leia(n1)
-escreva("Digite o segundo número: ")
+escreva("Digite o segundo nÃºmero: ")
 leia(n2)
-escreva("Digite o terceiro número: ")
+escreva("Digite o terceiro nÃºmero: ")
 leia(n3)
 
 se n1 > n2 entao
@@ -54,10 +54,11 @@ senao
     fimse
 fimse
 
-escreval("Os números em ordem crescente são: ")
+escreval("Os nÃºmeros em ordem crescente sÃ£o: ")
 escreval(ordena[1])
 escreval(ordena[2])
 escreval(ordena[3])
 
 
 fimalgoritmo
+//Esse algoritmo lÃª trÃªs valores distintos e os mostra em ordem crescente.
