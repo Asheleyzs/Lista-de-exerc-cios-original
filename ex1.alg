@@ -1,14 +1,15 @@
-algoritmo "Exercício 1"
-// Função :
+algoritmo "ExercÃ­cio 1"
+// FunÃ§Ã£o :FaÃ§a um algoritmo que receba dois nÃºmeros e exiba o resultado da sua soma. 
 // Autor :Asheley
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1, n2: inteiro
 inicio
-escreval("Digite primeiro número")
+escreval("Digite primeiro nÃºmero")
 leia(n1)
-escreval("Digite o segundo número")
+escreval("Digite o segundo nÃºmero")
 leia(n2)
-escreval("A soma é:", n1 + n2)
+escreval("A soma Ã©:", n1 + n2)
 fimalgoritmo
+//Esse algoritmo soma dois nÃºmeros escolhido pelo usuÃ¡rio
