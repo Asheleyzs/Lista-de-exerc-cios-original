@@ -1,19 +1,22 @@
 algoritmo "ex4"
-// Função :
+// FunÃ§Ã£o :Escrever um algoritmo que leia o nome de um vendedor, o seu salÃ¡rio fixo e o total de vendas efetuadas por ele no 
+mÃªs (em dinheiro). Sabendo que este vendedor ganha 15% de comissÃ£o sobre suas vendas efetuadas, informar o 
+seu nome, o salÃ¡rio fixo e salÃ¡rio no final do mÃªs.
 // Autor : ashe
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caracter
 salario: real
 vendas: real
 inicio
-escreval("nome do funcioário")
+escreval("nome do funcioÃ¡rio")
 leia(nome)
 escreval("salario")
 leia(salario)
 escreval("vendas")
 leia(vendas)
-escreval("A comissão é de:", vendas * 0.15)
-escreval("O total no fim do mês é de:", salario + vendas * 0.15)
+escreval("A comissÃ£o Ã© de:", vendas * 0.15)
+escreval("O total no fim do mÃªs Ã© de:", salario + vendas * 0.15)
 fimalgoritmo
+//Esse algoritmo calcula o salÃ¡rio final de um vendedor com base no salÃ¡rio fixo e comissÃ£o de 15% sobre as vendas.
