@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :FaÃ§a um algoritmo que receba um nÃºmero e mostre uma mensagem caso este nÃºmero seja maior que 10.
 // Autor :
 // Data : 16/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero: Real
 inicio
@@ -10,6 +10,7 @@ escreva ("Digite numero:")
 leia (numero)
 
 se numero> 10 entao
-   escreva("O número é maior que 10")
+   escreva("O nÃºmero Ã© maior que 10")
 fimse
 fimalgoritmo
+//Esse algoritmo verifica se um nÃºmero Ã© maior que 10 e exibe uma mensagem se for verdadeiro.
