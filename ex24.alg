@@ -1,16 +1,16 @@
 algoritmo "semnome"
-// FunÁ„o :
+// Fun√ß√£o :Fa√ßa um algoritmo que receba ‚ÄúN‚Äù n√∫meros e mostre positivo, negativo ou zero para cada n√∫mero
 // Autor :
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 N, i, numero: inteiro
 Inicio
-    Escreva("Quantos n˙meros deseja digitar? ")
+    Escreva("Quantos n√∫meros deseja digitar? ")
     Leia(N)
 
     Para i de 1 ate N faca
-        EscrevaL("Digite o ", i, "∫ n˙mero: ")
+        EscrevaL("Digite o ", i, "¬∫ n√∫mero: ")
         Leia(numero)
 
         Se numero > 0 Entao
@@ -24,3 +24,4 @@ Inicio
         FimSe
     FimPara
 fimalgoritmo
+//Esse algoritmo recebe v√°rios n√∫meros e classifica cada um como positivo, negativo ou zero.
