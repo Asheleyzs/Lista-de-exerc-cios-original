@@ -1,15 +1,17 @@
 algoritmo "ex3"
-// Função :
+// FunÃ§Ã£o :Escrever um algoritmo para determinar o consumo mÃ©dio de um automÃ³vel sendo fornecida a distÃ¢ncia total 
+percorrida pelo automÃ³vel e o total de combustÃ­vel gasto.
 // Autor :  ashe
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 km, L: inteiro
 inicio
-escreval("Digite a distâcia:")
+escreval("Digite a distÃ¢cia:")
 leia(km)
-escreval("Digite o combusstivél gasto:")
+escreval("Digite o combusstivÃ©l gasto:")
 leia(L)
-escreval("A média de combustivél gasto é:", km/L)
+escreval("A mÃ©dia de combustivÃ©l gasto Ã©:", km/L)
 
 fimalgoritmo
+//Esse algoritmo calcula o consumo mÃ©dio de um automÃ³vel com base na distÃ¢ncia percorrida e o combustÃ­vel gasto.
